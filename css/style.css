@@ -24,7 +24,7 @@ rosa footer: #ffb6c1
 
 /* REGOLE GENERALI */
 
-.container {
+.container-flex, .content-header-2 {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -57,12 +57,6 @@ rosa footer: #ffb6c1
 
 
 /* DEBUG */
-/* REGOLE GENERALI */
-.debug .container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
 
 /* REGOLE HEADER - BLOCCO 1 */
 .container-header-1 {
@@ -121,14 +115,16 @@ rosa footer: #ffb6c1
     min-height: 350px;
 }
 
-.bg-white {
+.debug .bg-white {
     background-color: white;
 }
 
-.bg-gray {
+.debug .bg-gray {
     background-color: #d3d3d3;
 }
 
-.bg-black {
+.debug .bg-black {
     background-color: #23272a;
 }
+
+.debug .container-section .bg-white 
