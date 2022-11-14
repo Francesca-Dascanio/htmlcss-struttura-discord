@@ -4,3 +4,87 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* COLORI
+azzurro: #add8e6
+rosa scuro: #ee82ee
+rosa chiaro: #ffc0cb
+arancione: #daa520
+blu: #00008b
+blu chiaro: #1e90ff
+grigio: #d3d3d3
+verde: #228b22
+quasi nero: #23272a
+corallo: #f08080
+verde-acqua1: #20b2aa
+verde-acqua2: #7fffd4
+rosa footer: #ffb6c1
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+/* REGOLE GENERALI */
+.debug .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* REGOLE HEADER */
+.debug header {
+    background-color:#add8e6;
+    min-height: 100px;
+}
+
+
+.debug .container-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.debug .intestazione {
+    height: 50px;
+    background-color: #daa520;
+    border: 1px dashed black;
+    width: 20%;
+}
+
+.debug .nav {
+   flex-grow: 3; 
+}
+
+.debug .nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+
