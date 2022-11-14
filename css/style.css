@@ -22,19 +22,29 @@ verde-acqua2: #7fffd4
 rosa footer: #ffb6c1
 */
 
+/* REGOLE GENERALI */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* REGOLE HEADER - BLOCCO 1*/
+.container-header-1 {
+    background-color:#add8e6;
+    min-height: 100px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
+/* REGOLE HEADER - BLOCCO 2*/
+.debug .container-header-2 {
+    background-color: #00008b;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -103,4 +113,22 @@ rosa footer: #ffb6c1
     border: 1px dashed black;
     width: 50%;
     min-height: 250px;
+}
+
+
+/* REGOLE MAIN - SEZIONI 1,2,3 */
+.debug .container-section {
+    min-height: 350px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
+.bg-black {
+    background-color: #23272a;
 }
