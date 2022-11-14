@@ -24,7 +24,7 @@ rosa footer: #ffb6c1
 
 /* REGOLE GENERALI */
 
-.container-flex, .content-header-2, .box, .box-section-big {
+.container-flex, .content-header-2, .box, .box-section-big, .container-footer {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -176,4 +176,21 @@ rosa footer: #ffb6c1
     border: 1px dashed white;
     height: 300px;
     width: 200px;
+}
+
+.debug .container-footer {
+    background-color: #7fffd4;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.debug .content-footer {
+    background-color:#ffb6c1;
+    border: 1px dashed black;
+    width: 80px;
+    height: 30px;
+    text-align: center;
 }
