@@ -162,3 +162,18 @@ rosa footer: #ffb6c1
     width: 100%;
     height: 600px;
 }
+
+.debug .part-coral {
+    background-color:#f08080;
+    border: 1px dashed black;
+    height: 300px;
+    width: 200px;
+    flex-grow: 2;
+}
+
+.debug .part-aqua {
+    background-color:#20b2aa;
+    border: 1px dashed white;
+    height: 300px;
+    width: 200px;
+}
