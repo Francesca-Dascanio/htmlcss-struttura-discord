@@ -75,7 +75,7 @@ header {
 
 /* REGOLE MAIN */
 .container-section {
-    padding: 15px 0;
+    padding: 2% 0;
     display: flex;
     flex-direction: row;
 }
@@ -91,18 +91,15 @@ header {
 
 /* REGOLE MAIN - SEZIONE 4 */
 .container-section-big {
-    min-height: 700px;
-    padding: 15px 0;
+    min-height: 600px;
+    padding: 2% 0;
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.box-green {
-    background-color: #228b22;
-    border: 1px dashed black;
+.container-section-big-content {
     width: 100%;
-    height: 600px;
 }
 
 
@@ -196,6 +193,11 @@ header {
 .debug .column-small {
     background-color: #ffc0cb;
     height: 300px;
+}
+
+.debug .container-section-big-content {
+    background-color: #228b22;
+    height: 600px;
 }
 
 /* FOOTER - NON RIESCO A FARE BORDO BIANCO */
