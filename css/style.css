@@ -11,34 +11,34 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container-flex, .content-header-2, .box, .box-section-big, .container-footer {
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
 
-
 /* REGOLE HEADER */
-/* REGOLE HEADER - BLOCCO 1*/
-.container-header-1 {
-    background-color:#add8e6;
-    min-height: 100px;
+header {
+    padding-bottom: 4px;
 }
 
-.container-flex {
+
+/* REGOLE HEADER TOP*/
+.header-top {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 2% 0;
 }
 
-/* .debug .intestazione {
-    height: 50px;
-    background-color: #daa520;
-    border: 1px dashed black;
-    width: 20%; */
+.header-top > * {
+    padding: 5px;
+}
+
+.intestazione {
+    width: 20%;
+}
 
 
 .nav {
@@ -58,10 +58,8 @@ body {
     text-decoration: none;
 }
 
-/* REGOLE HEADER - BLOCCO 2*/
-.container-header-2 {
-    background-color: #00008b;
-    min-height: 300px;
+/* REGOLE HEADER BOTTOM*/
+.header-bottom {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -69,9 +67,7 @@ body {
 }
 
 
-.content-header-2 {
-    background-color:#ee82ee;
-    border: 1px dashed black;
+.header-bottom-content {
     width: 50%;
     min-height: 250px;
 }
@@ -171,14 +167,35 @@ body {
 
 
 
-/* DEBUG */
-/* HEADER - BLOCCO 1 - NON RIESCO A POSIZIONARE IL TESTO */
+/* REGOLE DEBUG */
+/* GENERALI */
+.debug .bordered {
+    border: 1px dashed black;
+}
+
+/* HEADER */
+.debug header {
+    background-color:#add8e6;
+    min-height: 100px;
+}
+
+/* HEADER-TOP */
 .debug .intestazione {
     height: 50px;
     background-color: #daa520;
-    border: 1px dashed black;
     width: 20%;
 }
+
+/* HEADER-BOTTOM */
+.debug .header-bottom {
+    background-color: #00008b;
+    min-height: 300px;
+}
+
+.debug .header-bottom-content {
+    background-color:#ee82ee;
+}
+
 
 /* FOOTER - NON RIESCO A FARE BORDO BIANCO */
 .debug .container-footer {
