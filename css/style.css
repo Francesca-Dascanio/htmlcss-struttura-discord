@@ -53,7 +53,7 @@ header {
     justify-content: space-between;
 }
 
- a {
+ .nav-list a {
     color: black;
     text-decoration: none;
 }
@@ -74,46 +74,25 @@ header {
 
 
 /* REGOLE MAIN */
-.bg-white {
-    background-color: white;
-}
-
-.bg-gray {
-    background-color: #d3d3d3;
-}
-
-.bg-black {
-    background-color: #23272a;
-}
-
-.box {
-    min-height: 350px;
-    padding-top: 2%;
-    padding-bottom: 2%;
+.container-section {
+    padding: 15px 0;
     display: flex;
     flex-direction: row;
 }
 
 /* REGOLE MAIN - SEZIONI 1,2,3 */
-.part-big {
-    background-color: #1e90ff;
-    border: 1px dashed black;
-    height: 300px;
+.column-big {
     width: 66.6%;
 }
 
-.part-small {
-    background-color: #ffc0cb;
-    border: 1px dashed black;
-    height: 300px;
+.column-small {
     width: 33.3%;
 }
 
 /* REGOLE MAIN - SEZIONE 4 */
-.box-section-big {
+.container-section-big {
     min-height: 700px;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding: 15px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -181,7 +160,6 @@ header {
 
 /* HEADER-TOP */
 .debug .intestazione {
-    height: 50px;
     background-color: #daa520;
     width: 20%;
 }
@@ -197,7 +175,34 @@ header {
 }
 
 
+/* MAIN */
+.debug .bg-white {
+    background-color: white;
+}
+
+.debug .bg-gray {
+    background-color: #d3d3d3;
+}
+
+.debug .container-section {
+    min-height: 350px;
+}
+
+.debug .column-big {
+    background-color: #1e90ff;
+    height: 300px;
+}
+
+.debug .column-small {
+    background-color: #ffc0cb;
+    height: 300px;
+}
+
 /* FOOTER - NON RIESCO A FARE BORDO BIANCO */
+.debug .bg-black {
+    background-color: #23272a;
+}
+
 .debug .container-footer {
     background-color: #7fffd4;
     min-height: 100px;
